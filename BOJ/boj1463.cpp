@@ -1,4 +1,4 @@
-/*#include <cstdio>
+#include <cstdio>
 #include <algorithm>
 #pragma warning(disable: 4996)
 using namespace std;
@@ -23,4 +23,4 @@ int main() {
 	fill(dp, dp+MAX, -1);
 	printf("%d\n", f(n));
 	return 0;
-}*/
+}
