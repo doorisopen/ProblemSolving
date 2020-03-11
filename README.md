@@ -1,11 +1,10 @@
 # PS
-Problem Solving
+🚀Problem Solving Repository
 
+## [Code Up](https://codeup.kr/)
 
-## Code Up
+## [BOJ(Baekjoon Online Judge)](https://www.acmicpc.net/)
 
-## BOJ(Baekjoon Online Judge)
+## [Programmers](https://programmers.co.kr/)
 
-## Programmers
-
-## Code Force
+## [Code Force](https://codeforces.com/)
