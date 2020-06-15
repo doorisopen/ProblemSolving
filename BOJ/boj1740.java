@@ -1,5 +1,5 @@
 import java.util.*;
-public class Main {
+public class boj1740 {
 
 	public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -19,6 +19,7 @@ public class Main {
             adding *= 3;
         }
         System.out.println(answer);
+        sc.close();
 	}
 
 }
