@@ -13,6 +13,7 @@ int n = 4, m = 3; // n: 원소 개수, m: 순열 개수
 vector<int> arr;
 bool visit[10];
 
+
 void permutation(int d) {
     if(d == m) {
         for (int i = 0; i < arr.size(); i++) {
