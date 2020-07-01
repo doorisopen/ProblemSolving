@@ -6,7 +6,7 @@ public class boj1740 {
         long n = sc.nextLong();
         long answer = 0;
         
-        Queue qu = new LinkedList();
+        Queue<Long> qu = new LinkedList<>();
         while(n>0) {
             qu.offer(n%2);
             n /= 2;
