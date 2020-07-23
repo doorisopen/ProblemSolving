@@ -10,7 +10,7 @@ const int INF = 0x7f7f7f7f;
 const ll INF_LL = 0x7f7f7f7f7f7f7f7f;
 #define MAX 10000001
 
-int n = 4, m = 3; // n: 원소 개수, m: 순열 개수
+int n = 5, m = 3; // n: 원소 개수, m: 순열 개수
 int arr[MAX];
 
 void duplicate_combination(int d, int a) {

@@ -9,7 +9,7 @@ const int dy[4] = { 0,1,0,-1 };
 const int INF = 0x7f7f7f7f;
 const ll INF_LL = 0x7f7f7f7f7f7f7f7f;
 
-int n = 5, m = 5; // n: 원소 개수, m: 순열 개수
+int n = 5, m = 3; // n: 원소 개수, m: 순열 개수
 vector<int> arr;
 bool visit[10];
 
@@ -21,9 +21,9 @@ void permutation(int d) {
         }
         cout << "\n";
     }
-    for (int i = 0; i < n; i++) {
+    for (int i = 1; i <= n; i++) {
         if(!visit[i]) {
-            arr.push_back(a[i]);
+            arr.push_back(i);
             visit[i] = true;
             permutation(d+1);
             arr.pop_back();          

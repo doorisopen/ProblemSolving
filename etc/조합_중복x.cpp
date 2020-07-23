@@ -9,7 +9,7 @@ const int dy[4] = { 0,1,0,-1 };
 const int INF = 0x7f7f7f7f;
 const ll INF_LL = 0x7f7f7f7f7f7f7f7f;
 
-int n = 4, m = 3; // n: 원소 개수, m: 순열 개수
+int n = 5, m = 3; // n: 원소 개수, m: 순열 개수
 vector<int> arr;
 bool visit[10];
 
