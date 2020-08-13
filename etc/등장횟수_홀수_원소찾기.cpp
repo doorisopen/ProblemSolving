@@ -5,6 +5,9 @@ using namespace std;
 /**
  * space : O(1)
  * time : O(n)
+ * 
+ * Others Refer
+ * cpp bitwise operators: https://boycoding.tistory.com/163
  */
 int main(void) {
     int data1[] = {3, 6, 2, 4, 2, 3, 4, 3, 3, -4, -4, -4};
