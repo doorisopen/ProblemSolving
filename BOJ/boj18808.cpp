@@ -20,8 +20,7 @@ void rotate() {
             sticky[i][j] = temp[r-1-j][i];
         }
     }
-    // r^=c^=r^=c;
-    swap(r,c);
+    r^=c^=r^=c;
 }
 
 bool isAttachable(int x, int y) {
