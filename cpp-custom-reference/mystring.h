@@ -1,10 +1,3 @@
-#ifndef mystring_H
-#define mystring_H
-
-#include <vector>
-#include <string>
-#include <sstream>
-using namespace std;
 /** 
  * ## Todo
  * [x] trim
@@ -16,10 +9,20 @@ using namespace std;
  *
  * ## Others Refer
  * https://stackoverflow.com/questions/1798112/removing-leading-and-trailing-spaces-from-a-string
+ * https://wendys.tistory.com/8
+ * http://www.cplusplus.com/reference/string/string/find_last_of/
+ * https://twinw.tistory.com/220
  * 
  * @author doorisopen
  * @date 2020-08-12
  */
+#ifndef mystring_H
+#define mystring_H
+
+#include <vector>
+#include <string>
+#include <sstream>
+using namespace std;
 
 string _trim(string str) {
     int startCut = 0, endCut = 0;
